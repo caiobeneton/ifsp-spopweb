@@ -1,0 +1,15 @@
+{
+  "name": "spa-vanilla",
+  "version": "1.0.0",
+  "description": "Creation of SPA application in vanilla JS",
+  "keywords": [
+    "learn"
+  ],
+  "license": "GPL-3.0-or-later",
+  "author": "Allyson Souza",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
