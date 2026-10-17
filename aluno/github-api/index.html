@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GitHub Users</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<h1>GitHub Users</h1>
+		<p>Procure por usuários do GitHub</p>
+
+		<label for="username">Username do GitHub:</label>
+		<input id="username" name="username" type="text" placeholder="torvalds" aria-describedby="instrucao" />
+		<p id="erro" role="alert" hidden></p>
+		<p id="instrucao">Digite um nome de usuário e clique fora do campo para buscar.</p>
+	</header>
+
+	<main aria-live="polite">
+	</main>
+
+	<script src="app.js"></script>
+</body>
+
+</html>
